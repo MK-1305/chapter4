@@ -84,3 +84,20 @@ label {
 #check-btn:disabled {
     background: #ccc;
 }
+#bar {
+    background: #0bd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    /* width: 100%; */
+}
+article {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    line-height: 1.8;
+}
+h2 {
+    margin: 2rem 0 1rem;
+}
