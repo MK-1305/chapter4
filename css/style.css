@@ -68,4 +68,19 @@ img {
 .alert {
     color: #f66;
 }
-
+.check-button {
+    text-align: center;
+    padding: 2rem;
+}
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+#check-btn {
+    background: #0bd;
+    padding: .75rem 1rem;
+    border-radius: 8px;
+}
+#check-btn:disabled {
+    background: #ccc;
+}

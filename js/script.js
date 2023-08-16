@@ -41,3 +41,19 @@ text.addEventListener('keyup', () => {
     count.classList.remove('alert');
   }
 });
+
+// チェックでボタンを有効化する実装
+const isAgreed = document.querySelector('#check');
+const checkBtn = document.querySelector('#check-btn');
+
+isAgreed.addEventListener('change', () => {
+  //if文で書くと
+  // if (isAgreed.checked) {
+  //   checkBtn.disabled = false;
+  // } else {
+  //   checkBtn.disabled = true;
+  // }
+
+  //チェックボックスとdisabledが逆になっているので!を文頭につけてチェックされていないとdisabledをtrueにする文を書く
+  checkBtn.disabled = !isAgreed.checked;
+})
